@@ -1,0 +1,13 @@
+{
+    "Name": "name",
+    "token": "token",
+    "trackergg": "",
+    "color": "#7122E3",
+    "ownerID": "id",
+    "footer": "Made by name",
+    "channels" : [                      // Discord channel it works in
+                  "number"], // some channel
+    "prefix" : {                        // Discord whole thing it works in
+      "number" : "$$",      // server name #TODO we will change to @ the bot
+    }
+  }
