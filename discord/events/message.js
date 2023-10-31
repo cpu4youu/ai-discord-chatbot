@@ -100,8 +100,8 @@ module.exports = async(client, message) => {
       //Execute the command and log the user in console
       cmd.execute(client, message, args, data);
       client.logger.cmd(`${message.author.tag} used ${cmd.name}`);
-      const channel = client.channels.cache.get('channel number'); 
-      channel.send(`**${message.author.tag}** used **${cmd.name}** in channel **${message.channel.name}** on server **${message.guild.name}** with parameter **${args}**`);
+      // const channel = client.channels.cache.get('channel number'); 
+      // channel.send(`**${message.author.tag}** used **${cmd.name}** in channel **${message.channel.name}** on server **${message.guild.name}** with parameter **${args}**`);
 
   } catch(err) {
       console.error(err);
