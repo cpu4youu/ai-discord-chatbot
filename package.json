@@ -10,18 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    // "chalk": "^4.1.1",
-    // "chart.js": "^2.9.4",
-    // "chartjs-node-canvas": "^3.2.0",
-    // "config": "^3.3.6",
-    // "config-reloadable": "^1.0.9",
     "cron": "^1.8.2",
     "discord.js": "^12.5.3",
-    // "jquery": "^3.6.0",
-    // "jsdom": "^18.0.0",
-    // "jsonrpc2-ws": "^1.0.0-beta18",
-    // "moment": "^2.29.1",
-    // "plotly.js-dist": "^1.58.4",
-    // "sequelize": "^6.6.2"
+    "chalk": "^4.1.1",
+    "config": "^3.3.6",
+    "config-reloadable": "^1.0.9",
+    "moment": "^2.29.1"
   }
 }

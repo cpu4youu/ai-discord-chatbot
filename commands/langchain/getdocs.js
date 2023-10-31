@@ -1,12 +1,5 @@
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
-const {
-  freecpu,
-  getTimeout,
-  getAccount,
-  enBal,
-  getFreeTrans,
-} = require("../../transaction");
 var moment = require("moment");
 const config = require("config");
 
@@ -25,8 +18,6 @@ function getdocs(input) {
     });
   });
 }
-
-postData("data to process");
 
 module.exports = {
   //Command Information

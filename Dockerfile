@@ -1,7 +1,7 @@
 FROM node:17
 
 RUN apt update
-RUN apt install -y g++ make python python-dev
+RUN apt install -y g++ make python3 python3-dev python3-pip vim
 
 WORKDIR /app
 

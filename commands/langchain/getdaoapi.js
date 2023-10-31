@@ -54,6 +54,7 @@ module.exports = {
         } else {
           try {
             const question = args.join(" ");
+            console.log("Opening spawn");
             const answer = await getdaoapi(question);
             return message.reply(answer);
           } catch (error) {

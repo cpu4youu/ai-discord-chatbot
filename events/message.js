@@ -44,9 +44,9 @@ module.exports = async(client, message) => {
     }
 
     //If command is owner only and author isn't owner return
-    if(cmd.ownerOnly && message.author.id !== config.ownerID){
-      return;
-    }
+    // if(cmd.ownerOnly && message.author.id !== config.ownerID){
+    //   return;
+    // }
 
     if(message.guild){
 
