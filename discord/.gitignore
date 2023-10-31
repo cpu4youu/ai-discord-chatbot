@@ -1,0 +1,7 @@
+# misc
+*.DS_Store
+.DS_Store
+.env
+.htpasswd.local
+node_modules
+*/default.json
