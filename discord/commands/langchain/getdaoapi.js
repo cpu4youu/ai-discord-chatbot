@@ -53,10 +53,12 @@ module.exports = {
           return message.channel.send(content);
         } else {
           try {
+            const startTime = Date.now();
             const question = args.join(" ");
             console.log("Opening spawn");
             const answer = await getdaoapi(question);
-            return message.reply(answer);
+            const msElapsed = Date.now() - startTime;
+            return message.reply(answer + "\n AI query took " + msElapsed / 1000 + " seconds to complete.");
           } catch (error) {
             console.error(error);
             return message.channel.send(
