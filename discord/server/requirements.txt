@@ -2,3 +2,8 @@ langchain
 unstructured
 tiktoken
 openai
+python-dotenv
+pypdf
+faiss-cpu
+sentence_transformers
+InstructorEmbedding
